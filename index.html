@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Exercise 1 - Entry Form</title>
+
+	<link rel="stylesheet" href="assets/demo.css">
+	<link rel="stylesheet" href="assets/form-basic.css">
+
+</head>
+
+
+	<header>
+		<h1>(INT 813) Object-Oriented Databases</h1>
+    </header>
+
+
+    <div class="main-content">
+
+        <form class="form-basic" method="post" action="saveRecord.php">
+
+            <div class="form-title-row">
+                <h1>Exercise 1 - Entry</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>User name:</span>
+                    <input type="text" required="required" name="user_name">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Contact:</span>
+                    <input type="text" name="contact">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Email:</span>
+                    <input type="email" name="email">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" name="submit">Submit</button>
+            </div>
+
+            <a href="displayRecords.php" style="float: right;">See records</a>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
